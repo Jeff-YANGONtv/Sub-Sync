@@ -1,5 +1,11 @@
 [[headers]]
-  for = "/.well-known/assetlinks.json"
+  for = "/.well-known/*"
   [headers.values]
     Content-Type = "application/json"
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/.well-known/assetlinks.json"
+  to = "/.well-known/assetlinks.json"
+  status = 200
+  force = true

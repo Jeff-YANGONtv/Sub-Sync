@@ -1,6 +1,6 @@
 {
-  "name": "Subsync 2.1",
-  "short_name": "Subsync",
+  "name": "Subtitle Editor",
+  "short_name": "Sub-Editor",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0f172a",
